@@ -3,21 +3,20 @@ source 'https://rubygems.org'
 gemspec
 
 # dependencies for the dummy app
-gem 'rails'
+gem 'rails', '>= 4.2.9'
 gem 'jquery-rails'
 gem 'sqlite3'
 gem 'teabag'
-gem 'mime-types-data'
-gem 'arel'
 
 group :assets do
   gem 'sass-rails'
   gem 'uglifier'
-  gem 'sprockets-rails'
+  # gem 'sprockets-rails'
 end
 
 group :development, :test do
   gem 'rspec-core'
+  gem 'cucumber', '~> 1.3.20'
   gem 'cucumber-rails'
   gem 'capybara-firebug'
   gem 'aruba'
