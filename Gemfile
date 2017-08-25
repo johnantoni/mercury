@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gemspec
 
 # dependencies for the dummy app
-gem 'rails', '>= 3.2.8'
+gem 'rails', '>= 4.2.9'
 gem 'jquery-rails'
 gem 'sqlite3'
 gem 'teabag'
@@ -24,5 +24,3 @@ group :development, :test do
   # required for travis-ci and linux environments
   gem "phantomjs-linux" if  RUBY_PLATFORM =~ /linux/
 end
-
-
