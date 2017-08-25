@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gemspec
 
 # dependencies for the dummy app
-gem 'rails'
+gem 'rails', '3.2.9'
 gem 'jquery-rails'
 gem 'sqlite3'
 gem 'teabag'
