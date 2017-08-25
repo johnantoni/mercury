@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'teabag'
 gem 'mime-types-data'
 gem 'arel'
+gem 'tzinfo', '=> 0.3.53'
 
 group :assets do
   gem 'sass-rails'
