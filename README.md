@@ -404,9 +404,9 @@ different back end frameworks or languages.  There's a server specification in t
 
 #### Specs / Integration Tests
 
-Mercury is fully tested using Jasmine (via Teabag) and Cucumber.  You can clone the project to run the full suite.
+Mercury is fully tested using Jasmine (via teaspoon) and Cucumber.  You can clone the project to run the full suite.
 
-    rake teabag
+    rake teaspoon
     rake cucumber
 
 The default rake task does both of these in order.

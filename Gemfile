@@ -6,7 +6,6 @@ gemspec
 gem 'rails', '3.2.8'
 gem 'jquery-rails'
 gem 'sqlite3'
-gem 'teabag'
 gem 'mime-types-data'
 gem 'arel'
 gem 'tzinfo'
@@ -23,6 +22,8 @@ group :development, :test do
   gem 'capybara-firebug'
   gem 'aruba'
   gem 'database_cleaner'
+
+  gem "teaspoon-jasmine"
 
   # required for travis-ci and linux environments
   gem "phantomjs-linux" if  RUBY_PLATFORM =~ /linux/
